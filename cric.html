@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Scorecard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        h2 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .team-header {
+            text-align: left;
+            font-size: 20px;
+            margin: 20px 0 10px 0;
+        }
+        .total-score {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .extras, .fall-of-wickets {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Cricket Scorecard</h2>
+
+        <!-- Team 1 Scorecard -->
+        <div class="team-header">Team A - Innings</div>
+        <table>
+            <tr>
+                <th>Batsman</th>
+                <th>R</th>
+                <th>B</th>
+                <th>4s</th>
+                <th>6s</th>
+                <th>SR</th>
+            </tr>
+            <tr>
+                <td>Player 1</td>
+                <td>50</td>
+                <td>32</td>
+                <td>6</td>
+                <td>2</td>
+                <td>156.25</td>
+            </tr>
+            <tr>
+                <td>Player 2</td>
+                <td>30</td>
+                <td>28</td>
+                <td>4</td>
+                <td>1</td>
+                <td>107.14</td>
+            </tr>
+            <!-- Add more players as needed -->
+        </table>
+
+        <div class="total-score">Total: 180/5 (20 Overs)</div>
+
+        <div class="extras">Extras: 12 (lb 5, nb 1, w 6)</div>
+        <div class="fall-of-wickets">Fall of wickets: 1-50, 2-90, 3-120, 4-150, 5-180</div>
+
+        <!-- Team 2 Scorecard -->
+        <div class="team-header">Team B - Innings</div>
+        <table>
+            <tr>
+                <th>Batsman</th>
+                <th>R</th>
+                <th>B</th>
+                <th>4s</th>
+                <th>6s</th>
+                <th>SR</th>
+            </tr>
+            <tr>
+                <td>Player 1</td>
+                <td>60</td>
+                <td>40</td>
+                <td>8</td>
+                <td>1</td>
+                <td>150.00</td>
+            </tr>
+            <tr>
+                <td>Player 2</td>
+                <td>35</td>
+                <td>30</td>
+                <td>4</td>
+                <td>2</td>
+                <td>116.67</td>
+            </tr>
+            <!-- Add more players as needed -->
+        </table>
+
+        <div class="total-score">Total: 170/6 (20 Overs)</div>
+
+        <div class="extras">Extras: 8 (lb 2, nb 1, w 5)</div>
+        <div class="fall-of-wickets">Fall of wickets: 1-45, 2-85, 3-110, 4-130, 5-160, 6-170</div>
+    </div>
+</body>
+</html>
